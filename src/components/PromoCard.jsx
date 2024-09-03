@@ -1,11 +1,15 @@
+"use client"
 import React from 'react';
 import Image from 'next/image';
 import { Button } from './ui/button';
+import FadeIn from './FadeIn';
 
 export const PromoCard = () => {
     return (
         <div className="flex items-center justify-center w-full min-h-[800px] bg-[#02030E] ">
+            <FadeIn delay={0.2} direction='up' fullWidth>
             <div className="flex items-center justify-center flex-col lg:flex-row h-full w-full p-4 md:px-20 lg:max-w-[1400px] gap-8">
+                
                 <div className="flex flex-col items-start justify-center w-full lg:w-1/3 h-full p-4 gap-5">
                     <h1 className="text-5xl text-[#c9c6ec]">Artificial
                         Intelligence
@@ -63,32 +67,32 @@ export const PromoCard = () => {
                                 Live Mentorship
                             </li>
                             <li className="flex flex-row gap-3 items-center justify-start text-md text-[#c9c6ec]">
-                                <Image src="/headphone.svg" alt="arrow" height={18} width={18} />
-                                Live Mentorship
+                                <Image src="/laptop.svg" alt="arrow" height={18} width={18} />
+                                Project-Based Learning
                             </li>
                             <li className="flex flex-row gap-3 items-center justify-start text-md text-[#c9c6ec]">
-                                <Image src="/headphone.svg" alt="arrow" height={18} width={18} />
-                                Live Mentorship
+                                <Image src="/go.svg" alt="arrow" height={18} width={18} />
+                                Recorded Video Lectures
                             </li>
                             <li className="flex flex-row gap-3 items-center justify-start text-md text-[#c9c6ec]">
-                                <Image src="/headphone.svg" alt="arrow" height={18} width={18} />
-                                Live Mentorship
+                                <Image src="/case.svg" alt="arrow" height={18} width={18} />
+                                Industry based Projects
                             </li>
                             <li className="flex flex-row gap-3 items-center justify-start text-md text-[#c9c6ec]">
-                                <Image src="/headphone.svg" alt="arrow" height={18} width={18} />
-                                Live Mentorship
+                                <Image src="/factory.svg" alt="arrow" height={18} width={18} />
+                                Industry graded Certificates
                             </li>
                             <li className="flex flex-row gap-3 items-center justify-start text-md text-[#c9c6ec]">
-                                <Image src="/headphone.svg" alt="arrow" height={18} width={18} />
-                                Live Mentorship
+                                <Image src="/help.svg" alt="arrow" height={18} width={18} />
+                                Doubt Clearing Sessions
                             </li>
                             <li className="flex flex-row gap-3 items-center justify-start text-md text-[#c9c6ec]">
-                                <Image src="/headphone.svg" alt="arrow" height={18} width={18} />
-                                Live Mentorship
+                                <Image src="/task.svg" alt="arrow" height={18} width={18} />
+                                Quiz & Assessments
                             </li>
                             <li className="flex flex-row gap-3 items-center justify-start text-md text-[#c9c6ec]">
-                                <Image src="/headphone.svg" alt="arrow" height={18} width={18} />
-                                Live Mentorship
+                                <Image src="/tasks.svg" alt="arrow" height={18} width={18} />
+                                Personal Dashboard
                             </li>
                         </ul>
                         <Button variant="custom" className="bg-[#6B59ED] text-white rounded-xl w-full max-w-[175px] flex items-center justify-center text-lg px-5 py-2">Start Learning</Button>
@@ -109,36 +113,36 @@ export const PromoCard = () => {
                         <div className="text-lg font-semibold text-[#c9c6ec] mb-1">You’ll Get Access to:</div>
                         <ul className="flex flex-col items-start justify-center w-full h-auto gap-3 mb-10">
                             <li className="flex flex-row gap-3 items-center justify-start text-md text-[#c9c6ec]">
-                                <Image src="/headphone.svg" alt="arrow" height={18} width={18} />
-                                Live Mentorship
+                                <Image src="/idea.svg" alt="arrow" height={18} width={18} />
+                                Aptitude Grooming
                             </li>
                             <li className="flex flex-row gap-3 items-center justify-start text-md text-[#c9c6ec]">
-                                <Image src="/headphone.svg" alt="arrow" height={18} width={18} />
-                                Live Mentorship
+                                <Image src="/book.svg" alt="arrow" height={18} width={18} />
+                                Specific Resume Building
                             </li>
                             <li className="flex flex-row gap-3 items-center justify-start text-md text-[#c9c6ec]">
-                                <Image src="/headphone.svg" alt="arrow" height={18} width={18} />
-                                Live Mentorship
+                                <Image src="/laptop.svg" alt="arrow" height={18} width={18} />
+                                Personality Development
                             </li>
                             <li className="flex flex-row gap-3 items-center justify-start text-md text-[#c9c6ec]">
-                                <Image src="/headphone.svg" alt="arrow" height={18} width={18} />
-                                Live Mentorship
+                                <Image src="/gd.svg" alt="arrow" height={18} width={18} />
+                                Group Discussion Session
                             </li>
                             <li className="flex flex-row gap-3 items-center justify-start text-md text-[#c9c6ec]">
-                                <Image src="/headphone.svg" alt="arrow" height={18} width={18} />
-                                Live Mentorship
+                                <Image src="/case.svg" alt="arrow" height={18} width={18} />
+                                Placement Assistance
                             </li>
                             <li className="flex flex-row gap-3 items-center justify-start text-md text-[#c9c6ec]">
-                                <Image src="/headphone.svg" alt="arrow" height={18} width={18} />
-                                Live Mentorship
+                                <Image src="/lindin.svg" alt="arrow" height={18} width={18} />
+                                Linkedin Optimization Session
                             </li>
                             <li className="flex flex-row gap-3 items-center justify-start text-md text-[#c9c6ec]">
-                                <Image src="/headphone.svg" alt="arrow" height={18} width={18} />
-                                Live Mentorship
+                                <Image src="/gate.svg" alt="arrow" height={18} width={18} />
+                                Access to our Career Portal
                             </li>
                             <li className="flex flex-row gap-3 items-center justify-start text-md text-[#c9c6ec]">
-                                <Image src="/headphone.svg" alt="arrow" height={18} width={18} />
-                                Live Mentorship
+                                <Image src="/bot.svg" alt="arrow" height={18} width={18} />
+                                AI Mock Interview Portal
                             </li>
                         </ul>
                         <Button variant="custom" className="bg-[#6B59ED] text-white rounded-xl w-full max-w-[175px] flex items-center justify-center text-lg px-5 py-2">Start Learning</Button>
@@ -147,6 +151,8 @@ export const PromoCard = () => {
 
                 </div>
             </div>
+            </FadeIn>
+           
         </div>
     )
 }
