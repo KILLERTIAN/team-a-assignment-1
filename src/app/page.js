@@ -15,7 +15,7 @@ export default function Home() {
       <PromoCard/>
       <Mentors/>
       <Vanaja/>
-      {/* <Feedback/> */}
+      <Feedback/>
       {/* <main className="flex min-h-screen flex-col items-center justify-between ">
         Hello world
       </main> */}
