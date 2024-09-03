@@ -23,7 +23,7 @@ export const Module = () => {
             </FadeIn>
 
             {[...Array(5)].map((_, i) => (
-                <FadeIn key={i + 1} delay={0.4 + i * 0.2} direction="up" fullWidth>
+                <FadeIn key={i + 1} delay={0.1 + i * 0.1} direction="up" fullWidth>
                     <div className="w-full max-w-[1140px] mb-4">
                         <div
                             className={`flex justify-between items-center w-full p-4 cursor-pointer border ${openIndex === i + 1
@@ -83,13 +83,13 @@ export const Module = () => {
                 </FadeIn>
             ))}
 
-            <FadeIn delay={1.2} direction="up">
+            <FadeIn delay={0.2} direction="up">
                 <div className="w-full max-w-[1140px] text-start text-[#c9c6ec] font-poppins text-[16px] sm:text-[18px] font-semibold mt-8 ">
                     Looking for the complete module?
                 </div>
             </FadeIn>
 
-            <FadeIn delay={1.4} direction="up" fullWidth>
+            <FadeIn delay={0.3} direction="up" fullWidth>
                 <div className="w-full max-w-[1140px] flex flex-col md:flex-row justify-center items-center gap-10 mt-6 px-4">
                     <div className="text-[#6B59ED] font-poppins text-[20px] sm:text-[24px] font-semibold bg-transparent">
                         Download Full Syllabus
