@@ -9,12 +9,12 @@ import { Vanaja } from "@/components/Vanaja";
 export default function Home() {
   return (
     <>
-      {/* <Header />
+      <Header />
       <Hero/>
       <Module/>
-      <PromoCard/> */}
+      <PromoCard/>
       <Mentors/>
-      {/* <Vanaja/> */}
+      <Vanaja/>
       {/* <Feedback/> */}
       {/* <main className="flex min-h-screen flex-col items-center justify-between ">
         Hello world
