@@ -50,7 +50,7 @@ export const Feedback = () => {
                     }].map((feedback, index) => (
                         <FadeIn key={index} delay={0.2 + index * 0.1} direction="up">
                             <div className="flex flex-col p-6 lg:p-10 items-center justify-center w-full max-w-[370px] bg-[#0b0514] text-[#bdb9e2] gap-6 rounded-lg shadow-lg">
-                                <p className="text-sm lg:text-lg text-center">{feedback.text}</p>
+                                <p className="text-sm lg:text-lg text-start">{feedback.text}</p>
                                 <div className="flex flex-row items-center justify-between w-full">
                                     <Image src={feedback.img} alt="user" height={50} width={50} />
                                     <div className="flex flex-col items-start justify-center text-center lg:text-left">
