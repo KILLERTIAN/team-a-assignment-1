@@ -5,7 +5,7 @@ import FadeIn from './FadeIn';
 
 export const Vanaja = () => {
     return (
-        <div className="flex w-full items-center justify-center bg-[#02030e] p-5 overflow-hidden">
+        <div className="flex w-full items-center justify-center bg-[#02030e] p-10 overflow-hidden">
             <div className="flex flex-col lg:flex-row w-full max-w-[1140px] items-center justify-between gap-5">
                 {/* Text section */}
                 <div className="flex flex-col text-start items-start justify-center gap-3">
@@ -43,7 +43,7 @@ export const Vanaja = () => {
 
                 {/* Image section */}
                 <FadeIn delay={0.1} direction='left'>
-                    <div className="flex justify-center items-center lg:w-full md:min-w-[500px] w-[300px]">
+                    <div className="flex justify-center items-center h-full lg:w-full md:min-w-[500px] w-[300px]">
                         <Image
                             src="/industry.png"
                             alt="industry"
