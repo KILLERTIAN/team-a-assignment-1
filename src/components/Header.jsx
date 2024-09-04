@@ -75,7 +75,7 @@ export const Header = () => {
                                 <AnimatePresence>
                                     {activeDropdown === 'explore' && (
                                         <motion.ul
-                                            className="absolute left-0 top-[48px] mt-1 w-48 bg-[#705dea] text-white rounded-md shadow-lg"
+                                            className="absolute left-0 top-[48px] mt-1 w-48 bg-[#705dea] text-white rounded-md shadow-xl"
                                             initial="hidden"
                                             animate="visible"
                                             exit="hidden"

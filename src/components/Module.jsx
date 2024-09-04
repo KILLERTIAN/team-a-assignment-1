@@ -29,7 +29,7 @@ export const Module = () => {
                             className={`flex justify-between items-center w-full p-4 cursor-pointer border ${openIndex === i + 1
                                     ? 'bg-[#6B59ED] text-white border-[#6B59ED] rounded-t-[10px]'
                                     : 'bg-[#0d0f1c] text-white border-[#0c0e1e] rounded-[10px]'
-                                }`}
+                                } hover:bg-[#4e41d6] transition-all duration-300 ease-in-out transform ${openIndex === i + 1 ? 'scale-102' : 'scale-100'}`}
                             onClick={() => handleToggle(i + 1)}
                         >
                             <h2 className="text-[18px] sm:text-[20px] font-semibold">
@@ -40,6 +40,7 @@ export const Module = () => {
                                 alt={openIndex === i + 1 ? 'Collapse' : 'Expand'}
                                 height={20}
                                 width={17}
+                                className="transition-transform duration-300 ease-in-out"
                             />
                         </div>
                         <div
@@ -61,7 +62,7 @@ export const Module = () => {
                                 )}
                                 {i === 2 && (
                                     <>
-                                        <h2 className='text-[18px] sm:text-[20px] mb-1 font-medium'>Learn how to :</h2>
+                                        <h2 className='text-[18px] sm:text-[20px] mb-1 font-medium'>Learn how to:</h2>
                                         <li>Explore</li>
                                         <li>Visualize</li>
                                         <li>Extract Insights from Data</li>
@@ -84,7 +85,7 @@ export const Module = () => {
             ))}
 
             <FadeIn delay={0.2} direction="up">
-                <div className="w-full max-w-[1140px] text-start text-[#c9c6ec] font-poppins text-[16px] sm:text-[18px] font-semibold mt-8 ">
+                <div className="w-full max-w-[1140px] text-start text-[#c9c6ec] font-poppins text-[16px] sm:text-[18px] font-semibold mt-8">
                     Looking for the complete module?
                 </div>
             </FadeIn>

@@ -102,13 +102,13 @@ export const PromoCard = () => {
                 </div>
                 <div className="relative flex flex-col items-center justify-center w-full lg:w-1/3 h-[645px] p-4 ">
                     <div className="absolute top-0 flex flex-col items-start justify-start bg-[#6B59ED] rounded-[25px] w-full max-w-[500px] h-[165px] p-5 gap-2">
-                        <h1 className="text-xl font-semibold text-white ">Mentor-Led Program</h1>
-                        <h1 className="text-4xl font-bold text-white ">₹ 6000 <span className="font-normal text-lg"> /Course</span></h1>
+                        <h1 className="text-xl font-semibold text-white ">Professional Program</h1>
+                        <h1 className="text-4xl font-bold text-white ">₹ 9000 <span className="font-normal text-lg"> /Course</span></h1>
 
                     </div>
                     <div className="aboslute mt-[116px] flex flex-col w-full max-w-[400px] bg-[#0d0f1c] rounded-b-xl min-h-[525px] px-4 py-1 gap-3">
                         <div className="flex h-[75px] w-[75px] items-center justify-center bg-[#02030a] z-[4] rounded-xl p-2 border border-[#6B59ED]">
-                            <Image src="/hand.svg" alt="arrow" height={50} width={50} />
+                            <Image src="/award.svg" alt="arrow" height={50} width={50} />
                         </div>
                         <div className="text-lg font-semibold text-[#c9c6ec] mb-1">You’ll Get Access to:</div>
                         <ul className="flex flex-col items-start justify-center w-full h-auto gap-3 mb-10">
