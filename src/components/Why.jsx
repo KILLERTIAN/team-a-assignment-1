@@ -29,7 +29,7 @@ export const Why = () => {
                                 onClick={() => handleToggle(i + 1)}
                             >
                                 <h2 className="text-[18px] sm:text-[20px] font-semibold">
-                                    {i === 0 && 'What You’ll Learn?'}
+                                    {i === 0 && 'What You&apos;ll Learn?'}
                                     {i === 1 && 'Requirements'}
                                     {i === 2 && 'Description'}
                                     {i === 3 && 'Who is this course for?'}
@@ -63,12 +63,12 @@ export const Why = () => {
                                     )}
                                     {i === 1 && (
                                         <>
-                                            <li>Secondary School Maths </li>
+                                            <li>Secondary School Maths</li>
                                             <li>Fundamental Python</li>
                                         </>
                                     )}
                                     {i === 2 && (
-                                        <p>Looking to jump into the world of Artificial Intelligence? This course is perfect for beginners who want to learn the basics of AI and how to apply it to their business or project. You'll learn about the different types of AI, how to choose the right AI technology, and how to implement AI into your work.</p>
+                                        <p>Looking to jump into the world of Artificial Intelligence? This course is perfect for beginners who want to learn the basics of AI and how to apply it to their business or project. You&apos;ll learn about the different types of AI, how to choose the right AI technology, and how to implement AI into your work.</p>
                                     )}
                                     {i === 3 && (
                                         <p>Anybody intrigued by Artificial Intelligence, Machine Learning, or Deep Learning</p>
@@ -117,4 +117,4 @@ export const Why = () => {
             </div>
         </div>
     );
-}
+};

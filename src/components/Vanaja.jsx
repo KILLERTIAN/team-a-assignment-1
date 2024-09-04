@@ -43,7 +43,7 @@ export const Vanaja = () => {
 
                 {/* Image section */}
                 <FadeIn delay={0.1} direction='left'>
-                    <div className="flex justify-center items-center w-full md:min-w-[500px] w-[300px]">
+                    <div className="flex justify-center items-center lg:w-full md:min-w-[500px] w-[300px]">
                         <Image
                             src="/industry.png"
                             alt="industry"
