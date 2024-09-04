@@ -29,7 +29,7 @@ export const Why = () => {
                                 onClick={() => handleToggle(i + 1)}
                             >
                                 <h2 className="text-[18px] sm:text-[20px] font-semibold">
-                                    {i === 0 && 'What You&apos;ll Learn?'}
+                                    {i === 0 && "What You'll Learn?"}
                                     {i === 1 && 'Requirements'}
                                     {i === 2 && 'Description'}
                                     {i === 3 && 'Who is this course for?'}
